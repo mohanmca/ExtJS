@@ -5,6 +5,7 @@ Spket - install from - http://www.agpad.com/update/
 
 file:///C:/Mohan/apps/ext-4.2.1.883/examples/index.html
 
+http://www.extjs-tutorial.com/extjs/setup-aptana-for-extjs-development
 
 
 
