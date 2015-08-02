@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Example ExtJs</title>
+<link
+	href="http://cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all-neptune.css"
+	rel="stylesheet" />
+<script src="http://cdn.sencha.com/ext/gpl/4.2.1/ext-all.js" /></script>
+<script type="text/javascript">
+	Ext.application({
+		name : 'MyApp',
+		launch : function () {
+			Ext.create('Ext.container.Viewport', {
+				items : [ {
+					xtype : 'component',
+					html : '<p>if you click me, I will disapper</p>',
+					listeners: {
+						click: {
+							element: 'el',
+							fun: function() {
+								this.hide();
+							}
+						}
+					}
+				}, {
+					html: '<p>if you click me, I will hide</p>',
+					listeners: {
+						click: {
+							element: 'el',
+							fun: function() {
+								this.hide();
+							}
+						}
+					}
+				}, {
+					html: '<p>if you click me, I will also hide</p>',
+					listeners: {
+						click: {
+							element: 'el',
+							fun: function() {
+								this.hide();
+							}
+						}
+					}
+				} ]
+			})
+		}
+	});
+</script>
+</head>
+<body>
+</body>
+</html>

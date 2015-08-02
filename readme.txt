@@ -11,5 +11,14 @@ Spket - install from - http://www.agpad.com/update/
  
 file:///C:/Mohan/apps/ext-4.2.1.883/examples/index.html
 
+Example: Doc  & Sample.
+http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.container.ButtonGroup
 
+Who are all core-developer in Ext.Js?
+Jacky Nguyen
 
+~~~~~~~~~~~~~~~~~~~~~
+Pivotal Lecture Notes
+~~~~~~~~~~~~~~~~~~~~~
+1) ExtJs is what for enterprise, where jQuery & Angular for Consumers
+2) 
